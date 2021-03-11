@@ -1,0 +1,224 @@
+.w{
+    width: 990px;
+    margin:0 auto;
+}
+.header .logo a{
+    float:left;
+    display: block;
+    width: 170px;
+    height: 60px;
+    text-indent:-9999px;
+    background:url(//misc.360buyimg.com/lib/img/e/logo-201305-b.png)no-repeat;
+}
+.header .logo p{
+    float:left;
+    margin:0 14px;
+    line-height: 68px;
+    font-size:26px;
+    color:#4a4a4a;
+}
+.questionnaire{
+    float:right;
+    margin-top:40px;
+}
+.questionnaire i{
+    width: 18px;
+    height: 14px;
+    background: url(//misc.360buyimg.com/user/passport/1.0.0/css/i/q-icon.png) no-repeat;
+}
+.questionnaire a{
+    font-size:12px;
+    color:#999;
+}
+.color-d34844 a:hover{
+    color:#d34844;
+    text-decoration:underline solid;
+}
+.content{
+    background: #fef8f1;;
+}
+.content .tips-wrap{
+    text-align: center;
+    line-height: 38px;
+}
+.content .tips-wrap i{
+    width: 16px;
+    height: 16px;
+    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/icon-tips.png);
+}
+.content .tips-wrap p{
+    font-size:12px;
+    color:#999;
+}
+.content .tips-wrap p a{
+    color:#333;
+}
+.content .tips-wrap p a:hover{
+    text-decoration: underline solid;
+}
+.login-form{
+    position:relative;
+}
+.tips-wrap{
+    background:#fef8f1;
+}
+.login{
+    float:right;
+    width: 346px;
+    background:white;
+    position:absolute;
+    z-index: 2;
+    right:0;
+    margin-top:10px;
+}
+.login span{
+    float:right;
+    color: #f4f4f4;
+}
+.login-wrap{
+    width: 100%;
+    background:#798da6;
+    height: 475px;
+}
+.login-banner{
+    position:absolute;
+    width: 990px;
+    height: 475px;
+    z-index: 0;
+    margin-left: 50%;
+    left:-495px;
+}
+.login-l,.login-r{
+    cursor: pointer;
+    line-height: 54px;
+    width: 173px;
+    height: 54px;
+    float:left;
+    text-align: center;
+    font-size:18px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.login-l:hover,.login-r:hover{
+    color:#d34844;
+    font-weight:900;
+}
+.active{
+    color:#d34844;
+    font-weight:900;
+
+}
+.qrcode{
+    display:none;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+}
+.qrcode-img{
+    border: 1px solid #f4f4f4;
+    padding: 8px;
+    height: 173px;
+    width: 165px;
+    margin:0px auto;
+    margin-top:40px;
+
+}
+.qrcode p{font-size:12px;color:#666;line-height: 44px;}
+.qrcode p a{color:#d34844;}
+.qrcode ul{text-align: center;}
+.qrcode ul li{
+    float:left;
+}
+.qrcode ul li i{
+    width: 25px;
+    height: 25px;
+    background:url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/qr-coagent.png) no-repeat;
+}
+.qrcode ul li{color:#666;}
+.login form{
+    display:block;
+    padding:20px;
+    box-sizing: border-box;
+    margin-top:42px;
+}
+.login form .item,
+.login form .entry{
+    border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+    margin-top:20px;
+}
+.login form .item label,
+.login form .entry label{
+    display:inline-block;
+    float:left;
+    width: 39px;
+    height: 36px;
+    border-right:1px solid #bdbdbd;
+    background:url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) no-repeat;
+}
+.login form .item input,
+.login form .entry input{
+    height: 38px;
+    width: 258px;
+    float:right;
+    border:none;
+    background:none;
+}
+.forgetpwd a{
+    font-size:12px;
+    float:right;
+    line-height: 76px;
+}
+.login-btn a{
+    display: inline-block;
+    width: 306px;
+    height: 34px;
+    background:#d34844;
+    color:white;
+    font-size:18px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 34px;
+}
+.coagent{
+    box-sizing: border-box;
+    padding:20px;
+    background:#fcfcfc;
+    margin-bottom:20px;
+    font-size:12px;
+    border-top: 1px solid #f4f4f4;
+}
+.content ul li{
+    float:left;
+}
+.content ul span{float:left;color:#666;}
+.content ul li a{color:#666;}
+.coagent ul li i{
+    width: 19px;
+    height: 18px;
+    background:url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/QQ-weixin.png) no-repeat;
+}
+.content .wechat i{
+    background-position: -20px 0px;
+}
+.content .register{
+    float:right;
+}
+.content .register a{
+    color:#d34844;
+}
+
+.register i{
+    background:url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) -104px -75px no-repeat;
+}
+.footer{
+    text-align: center;
+    color:#666;
+}
+.footer .links a{
+    font-size:12px;
+}
+.footer .links a{
+    margin:0 14px;
+    line-height: 54px;
+}
